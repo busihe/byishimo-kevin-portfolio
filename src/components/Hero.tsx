@@ -17,8 +17,11 @@ const Hero: React.FC = () => {
             {userData.title}
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
-            {userData.profile.split('. ')[0]}.
-          </p> {/* Display first sentence of profile */}
+          <p dangerouslySetInnerHTML={{
+                  __html: userData.profile.split('. ')[0] + '.',
+                }} />
+          </p> 
+          {/* Display first sentence of profile */}
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
             <Link href="#projects" className="px-8 py-3 bg-gold-accent text-white rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all shadow-lg">

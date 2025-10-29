@@ -9,7 +9,7 @@ const About: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Profile Text */}
         <div className="text-lg text-gray-700 leading-relaxed space-y-4">
-          <p>{userData.profile}</p>
+        <p dangerouslySetInnerHTML={{ __html: userData.profile }} />
           {/* You can add more detailed paragraphs here if needed */}
         </div>
 

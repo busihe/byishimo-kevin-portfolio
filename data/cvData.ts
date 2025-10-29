@@ -2,7 +2,7 @@
 
 export const userData = {
   name: "BYISHIMO KEVIN",
-  title: "Full Stack Web Developer & Creative Media Producer",
+  title: "Full Stack Web and mobile Developer & Creative Media Producer",
   tagline: "Motivated and passionate developer eager to build innovative solutions.",
   
   contact: {
@@ -14,7 +14,7 @@ export const userData = {
     // linkedin: "your-linkedin-profile" // Uncomment and add if you have one
   },
 
-  profile: `As a motivated and passionate <strong>web and mobile developer</strong>, I bring hands-on experience in computer maintenance and full stack web development. My journey includes proficiency in troubleshooting hardware and software, building robust web applications, and creative media production. I'm always eager to learn and grow in a dynamic tech environment, contributing my skills to innovative projects.`,
+  profile: `As a motivated and passionate <strong>web and mobile developer</strong>, I bring hands-on experience in computer maintenance and full stack web and mobile development. My journey includes proficiency in troubleshooting hardware and software, building robust web and mobile applications, and creative media production. I'm always eager to learn and grow in a dynamic tech environment, contributing my skills to innovative projects.`,
 
   education: [
     {
