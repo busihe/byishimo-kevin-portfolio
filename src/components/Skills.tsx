@@ -2,6 +2,7 @@
 import Section from './Section';
 import { userData } from '../../data/cvData';
 import { FaCode, FaLaptopCode, FaDatabase, FaTools, FaPaintBrush } from 'react-icons/fa';
+import { JSX } from 'react';
 
 const skillIcons: { [key: string]: JSX.Element } = {
   languages: <FaCode />,
