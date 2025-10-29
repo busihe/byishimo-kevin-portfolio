@@ -2,7 +2,7 @@
 
 export const userData = {
   name: "BYISHIMO KEVIN",
-  title: "Junior Full Stack Web Developer & Creative Media Producer",
+  title: "Full Stack Web Developer & Creative Media Producer",
   tagline: "Motivated and passionate developer eager to build innovative solutions.",
   
   contact: {

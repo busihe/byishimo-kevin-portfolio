@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   return (
     <Section id="contact" title="Get In Touch" className="bg-light-bg">
       <p className="text-center text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
-        I m always open to new opportunities, collaborations, and conversations. Feel free to reach out to me!
+        I' m always open to new opportunities, collaborations, and conversations. Feel free to reach out to me!
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
